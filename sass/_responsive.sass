@@ -1,0 +1,51 @@
+// iPadish.
+@media screen and (max-width: 768px)
+	html
+		font-size: 16px
+	.workshop-summary
+		margin-left: 1.5em
+		width: 95%
+	.register-callout-title
+		font-size: 1.1em
+
+// This is the breakpoint where Bootstrap collapses all columns into full-width blocks.
+@media screen and (max-width: 767px)
+	html
+		font-size: 16px
+	.header-container
+		padding: 1em 0
+		text-align: center
+	.header-logo
+		margin: 0 auto
+
+	// Remove awesome margins & widths.
+	.workshop-summary
+		margin: 0
+		width: auto
+
+
+/**Apply these styling changes to iPhones**/
+@media screen and (max-width:499px)
+	html
+		font-size: 14px
+
+	.header-logo
+		height: 8em
+	.header-tagline
+		font-size: 2rem
+	.header-details
+		font-size: 1em
+
+	.workshop-summary
+		background-image: none
+		font-size: 1rem
+		// Remove the 20px padding Bootstrap adds so it's flush left/right
+		margin: 0 -20px
+		padding: 20px
+
+	// .register-callout-info
+		// font-size: 1rem
+		// line-height: 1.5rem
+		// margin-top: .5em
+	.register-button
+		display: block

@@ -1,0 +1,138 @@
+html
+	font-size: 112.5%
+
+.container-fluid
+	max-width: 1200px
+
+
+// ********************************************************
+// Main header
+
+.header-container
+	padding: 3em 0 5em 0
+
+.header-logo
+	margin-left: 10%
+	display: block
+	max-height: 12em
+
+.header-tagline
+	font-family: $awesome
+	letter-spacing: -1px
+	font-size: 2.666rem
+	line-height: 1
+	margin: .5em 0
+
+.header-details
+	font-family: $sans
+	font-size: 1.333em
+	line-height: 1.333em
+	font-weight: 300
+	text-transform: uppercase
+
+
+// ********************************************************
+// Workshop callout
+
+.workshop-callout
+	background: url(../images/crafting-type-4.jpg) no-repeat center center
+	background-size: cover
+
+.workshop-summary
+	background: #fff url(http://archive.kylefox.ca/v2/theme/4be729d4dabe9d54b000000e/stylesheets/images/bg_light_stripes.png) repeat-x
+	padding: 10%
+	margin: -2em 0 3em -2em
+
+.workshop-summary-text
+	// font-size: 1.25em
+	margin-bottom: $magic-number * 1em
+
+// ********************************************************
+// Workshop callout > Registration callout
+
+.register-callout
+	font-family: $sans
+	padding-top: 1em
+.register-callout-title
+	font-size: 1.25em
+	line-height: 1.25
+	font-weight: 900
+	// margin-top: .5em
+.register-callout-info
+	color: #888
+	font-style: italic
+	margin: 0.25em 0 1em 0
+	font-size: .75em
+.register-button
+	background: $blue
+	display: inline-block
+	text-decoration: none
+	color: #fff
+	padding: .5em 1em
+	+border-radius(8px)
+	letter-spacing: 1px
+	font-size: 22px
+	font-weight: 900
+	text-transform: uppercase
+	text-align: center
+	&:hover
+		background: $dark-blue
+		color: #fff
+
+.pricing-table
+	width: 100%
+	background: #fbfbfb
+	margin-bottom: .5em
+
+.pricing-table th,
+.pricing-table td
+	border-bottom: 1px dotted #ccc
+	padding: .75em 1em
+
+.pricing-table td
+	font-family: $sans
+
+.pricing-table small
+	font-family: $sans
+	// float: right
+	display: block
+	font-size: 16px
+	line-height: 32px
+	color: #999
+
+h3
+	font-family: $sans
+	font-weight: 900
+	margin-bottom: .25em
+	text-transform: uppercase
+	font-size: 16px
+	letter-spacing: 1px
+
+.instructor
+	background: #fff url(http://archive.kylefox.ca/v2/theme/4be729d4dabe9d54b000000e/stylesheets/images/bg_light_stripes.png) repeat-x
+	padding: 4em 0
+	img
+		margin-bottom: 1.5em
+	.instructor-title
+		font-family: $sans
+		text-transform: uppercase
+		font-weight: 400
+		margin-bottom: 1em
+
+// Styles for long text / copy
+.copy
+	h2
+		font-size: 175%
+		font-weight: bold
+
+footer
+	background: #222
+	padding: 3em 0
+	text-align: center
+	color: #666
+	img
+		margin-bottom: 1.5em
+	a
+		color: #999
+		&:hover
+			color: #fff
