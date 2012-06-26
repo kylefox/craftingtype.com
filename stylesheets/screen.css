@@ -1574,7 +1574,7 @@ html {
 .header-tagline {
   font-family: "Changa One", "Helvetica", "Arial", sans-serif;
   letter-spacing: -1px;
-  font-size: 2.666rem;
+  font-size: 2.75rem;
   line-height: 1;
   margin: 0.5em 0;
 }
@@ -1606,20 +1606,20 @@ html {
   margin-bottom: 1.5em;
 }
 
-/* line 53, ../sass/_desktop.sass */
+/* line 52, ../sass/_desktop.sass */
 .register-callout {
   font-family: "Lato", "Lucida Grande", "Verdana", sans-serif;
   padding-top: 1em;
 }
 
-/* line 56, ../sass/_desktop.sass */
+/* line 55, ../sass/_desktop.sass */
 .register-callout-title {
   font-size: 1.25em;
   line-height: 1.25;
   font-weight: 900;
 }
 
-/* line 61, ../sass/_desktop.sass */
+/* line 60, ../sass/_desktop.sass */
 .register-callout-info {
   color: #888888;
   font-style: italic;
@@ -1627,7 +1627,7 @@ html {
   font-size: 0.75em;
 }
 
-/* line 66, ../sass/_desktop.sass */
+/* line 65, ../sass/_desktop.sass */
 .register-button {
   background: #2abff1;
   display: inline-block;
@@ -1645,32 +1645,32 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 78, ../sass/_desktop.sass */
+/* line 77, ../sass/_desktop.sass */
 .register-button:hover {
   background: #0ea7da;
   color: white;
 }
 
-/* line 82, ../sass/_desktop.sass */
+/* line 81, ../sass/_desktop.sass */
 .pricing-table {
   width: 100%;
   background: #fbfbfb;
   margin-bottom: 0.5em;
 }
 
-/* line 87, ../sass/_desktop.sass */
+/* line 86, ../sass/_desktop.sass */
 .pricing-table th,
 .pricing-table td {
   border-bottom: 1px dotted #cccccc;
   padding: 0.75em 1em;
 }
 
-/* line 92, ../sass/_desktop.sass */
+/* line 91, ../sass/_desktop.sass */
 .pricing-table td {
   font-family: "Lato", "Lucida Grande", "Verdana", sans-serif;
 }
 
-/* line 95, ../sass/_desktop.sass */
+/* line 94, ../sass/_desktop.sass */
 .pricing-table small {
   font-family: "Lato", "Lucida Grande", "Verdana", sans-serif;
   display: block;
@@ -1679,7 +1679,7 @@ html {
   color: #999999;
 }
 
-/* line 103, ../sass/_desktop.sass */
+/* line 102, ../sass/_desktop.sass */
 h3 {
   font-family: "Lato", "Lucida Grande", "Verdana", sans-serif;
   font-weight: 900;
@@ -1689,16 +1689,16 @@ h3 {
   letter-spacing: 1px;
 }
 
-/* line 111, ../sass/_desktop.sass */
+/* line 110, ../sass/_desktop.sass */
 .instructor {
   background: white url(http://archive.kylefox.ca/v2/theme/4be729d4dabe9d54b000000e/stylesheets/images/bg_light_stripes.png) repeat-x;
   padding: 4em 0;
 }
-/* line 114, ../sass/_desktop.sass */
+/* line 113, ../sass/_desktop.sass */
 .instructor img {
   margin-bottom: 1.5em;
 }
-/* line 116, ../sass/_desktop.sass */
+/* line 115, ../sass/_desktop.sass */
 .instructor .instructor-title {
   font-family: "Lato", "Lucida Grande", "Verdana", sans-serif;
   text-transform: uppercase;
@@ -1706,28 +1706,28 @@ h3 {
   margin-bottom: 1em;
 }
 
-/* line 124, ../sass/_desktop.sass */
+/* line 123, ../sass/_desktop.sass */
 .copy h2 {
   font-size: 175%;
   font-weight: bold;
 }
 
-/* line 128, ../sass/_desktop.sass */
+/* line 127, ../sass/_desktop.sass */
 footer {
   background: #222222;
   padding: 3em 0;
   text-align: center;
   color: #666666;
 }
-/* line 133, ../sass/_desktop.sass */
+/* line 132, ../sass/_desktop.sass */
 footer img {
   margin-bottom: 1.5em;
 }
-/* line 135, ../sass/_desktop.sass */
+/* line 134, ../sass/_desktop.sass */
 footer a {
   color: #999999;
 }
-/* line 137, ../sass/_desktop.sass */
+/* line 136, ../sass/_desktop.sass */
 footer a:hover {
   color: white;
 }
