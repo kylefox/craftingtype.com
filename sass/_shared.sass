@@ -8,6 +8,14 @@ body
 	font-family: $serif
 	line-height: $magic-number
 
+h3
+	font-family: $sans
+	font-weight: 900
+	margin-bottom: .5em
+	text-transform: uppercase
+	font-size: 16px
+	letter-spacing: 1px
+
 a
 	color: $blue
 	text-decoration: none
@@ -51,3 +59,50 @@ strong
 	margin-bottom: 0
 	padding-bottom: 0
 	border-bottom: none
+
+=button
+	-webkit-appearance: none
+	cursor: pointer
+	+border-radius(8px)
+	border: none
+	background: $blue
+	display: inline-block
+	text-decoration: none
+	color: #fff
+	letter-spacing: 1px
+	font-weight: 900
+	text-transform: uppercase
+	text-align: center
+	&:hover
+		background: $dark-blue
+		color: #fff
+
+.button
+	+button
+
+input[type="text"],
+input[type="email"],
+input[type="submit"]
+	font-family: $sans
+	padding: .5em
+	font-size: 1em
+	display: inline
+	border: none
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="submit"]:focus
+	outline: none
+
+input[type="text"],
+input[type="email"]
+	background: #eee
+	width: 70%
+
+input[type="text"]:focus,
+input[type="email"]:focus
+	background: #f4f4f4
+
+input[type="submit"]
+	width: 25%
+
