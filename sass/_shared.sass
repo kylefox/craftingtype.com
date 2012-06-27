@@ -68,7 +68,7 @@ strong
 =button
 	-webkit-appearance: none
 	cursor: pointer
-	+border-radius(8px)
+	+border-radius(4px)
 	border: none
 	background: $blue
 	display: inline-block
@@ -78,6 +78,7 @@ strong
 	font-weight: 900
 	text-transform: uppercase
 	text-align: center
+	font-family: $sans
 	&:hover
 		background: $dark-blue
 		color: #fff
@@ -90,9 +91,10 @@ input[type="email"],
 input[type="submit"]
 	font-family: $sans
 	padding: .5em
-	font-size: 1em
+	font-size: 18px
 	display: inline
 	border: none
+	+border-radius(4px)
 
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -102,7 +104,7 @@ input[type="submit"]:focus
 input[type="text"],
 input[type="email"]
 	background: #eee
-	width: 70%
+	width: 60%
 
 input[type="text"]:focus,
 input[type="email"]:focus
@@ -111,7 +113,8 @@ input[type="email"]:focus
 input[type="submit"]
 	width: 25%
 
-
+.email-form
+	margin-top: .5em
 
 .icon
 	background-size: contain
