@@ -1,4 +1,9 @@
+html.svg .no-svg-img,
+html.no-svg .svg-img
+	display: none
+
 img
+	-ms-interpolation-mode: bicubic
 	max-width: 100%
 
 body
@@ -113,18 +118,23 @@ input[type="submit"]
 	background-position: 0 0
 	background-repeat: no-repeat
 
-.icon.calendar
-	background-image: url(../images/Icon-Calendar.svg)
-	padding-left: 2em
-.icon.location
-	background-image: url(../images/Icon-Location.svg)
-	padding-left: 1.4em
-.icon.heart
-	background-image: url(../images/Icon-Heart.svg)
-	padding-left: 2.3em
-.icon.email
-	background-image: url(../images/Icon-Email.svg)
-	padding-left: 2.9em
-.icon.help
-	background-image: url(../images/Icon-Help.svg)
-	padding-left: 2em
+html.svg
+	.icon.calendar
+		background-image: url(../images/Icon-Calendar.svg)
+		padding-left: 2em
+	.icon.location
+		background-image: url(../images/Icon-Location.svg)
+		padding-left: 1.4em
+	.icon.heart
+		background-image: url(../images/Icon-Heart.svg)
+		padding-left: 2.3em
+	.icon.email
+		background-image: url(../images/Icon-Email.svg)
+		padding-left: 2.9em
+	.icon.help
+		background-image: url(../images/Icon-Help.svg)
+		padding-left: 2em
+html.no-svg
+	.icon:before
+		content: "• "
+		color: $blue
