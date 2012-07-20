@@ -7,7 +7,7 @@ img
 	max-width: 100%
 
 body
-	border-top: 1em solid $yellow
+	// border-top: 1em solid $yellow
 	font-size: 125%
 	background: #f0f0f0
 	color: #222
@@ -33,6 +33,21 @@ em
 
 strong
 	font-weight: bold
+
+.nav-container
+	background: $yellow
+	font-family: $sans
+	font-weight: 900
+	text-transform: uppercase
+	font-size: 14px
+	letter-spacing: 1px
+
+.nav-container a
+	color: darken($yellow, 30%)
+	display: inline-block
+	padding: 1em
+	&:hover
+		color: #000
 
 .container-fluid
 	margin: 0 auto
